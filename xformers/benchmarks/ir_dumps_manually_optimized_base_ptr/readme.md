@@ -16,9 +16,8 @@ TRITON_ALWAYS_COMPILE=1 TRITON_KERNEL_OVERRIDE=1 TRITON_OVERRIDE_DIR=ir_dumps_ma
 dump directory contains full set of IRs for modufied variant plus original amdgcn and ttgir dumps.
 
 ### Results
-
-            | original | modified
-    ---     | ---      | ---
+. | original | modified
+--- | --- | ---
 v_add count | 160      | 141
 v_mul count | 78       | 74
 sgpr count  | 95       | 93
